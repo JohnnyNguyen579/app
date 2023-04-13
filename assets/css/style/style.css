@@ -545,6 +545,7 @@ html {
     width: 1400px;
     margin: 30px auto 0;
     position: relative;
+    user-select: none;
 }
 
 .content-container__product .content-container__banners{
@@ -695,6 +696,11 @@ html {
     padding: 10px;
     border-radius: 50px;
     font-size: 2rem;
+    transition: .3s;
+}
+
+.why .btn-hotline:hover{
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
 }
 
 .why .btn-hotline .hotline-number{
@@ -725,6 +731,12 @@ html {
     color: red;
     font-size: 2rem;
     font-weight: 700;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.container-convenience .container-convenience__item .text-content:hover{
+    color: var(--black-color);
 }
 
 footer{
