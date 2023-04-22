@@ -985,6 +985,7 @@ footer .information-list li i {
         background-color: #fff;
         align-items: center;
         padding: 0 20px;
+        overflow: hidden;
     }
 
     .header-main__mobile .header-logo__img {
@@ -1009,7 +1010,6 @@ footer .information-list li i {
     .header-main__mobile .header-cart__icon {
         position: relative;
         cursor: pointer;
-        padding: 0 20px;
     }
 
     .header-main__mobile .header-navbar__icon i,
@@ -1399,6 +1399,11 @@ footer .information-list li i {
         border-radius: 10px;
         background-color: #e9e9e9;
         z-index: 1000;
+        margin: 0 20px;
+    }
+
+    .header-main__mobile .header-center{
+        width: 50%;
     }
 
 
