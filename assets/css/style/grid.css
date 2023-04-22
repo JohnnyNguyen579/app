@@ -26,6 +26,8 @@
     padding-right: 4px;
 }
 
+@media screen and (max-width: 740px){
+
 .c-0{
     display: none;
 }
@@ -88,6 +90,7 @@
 .c-12{
     flex: 0 0 100%;
     max-width: 100%;
+}
 }
 
 /* tablet */
@@ -188,8 +191,7 @@
     }
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1239px){
-}
+@media screen and (min-width: 1024px){
 
 .wide{
     width: 1400px;
@@ -347,4 +349,5 @@
 .wide .l-12{
     flex: 0 0 100%;
     max-width: 100%;
+}
 }
