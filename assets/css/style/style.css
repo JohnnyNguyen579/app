@@ -857,9 +857,7 @@ footer .text-heading {
     font-size: 1.8rem;
     font-weight: 600;
     color: var(--white-color);
-    width: 500px;
     max-width: 100%;
-    text-align: center;
     margin-bottom: 15px;
 }
 
@@ -1248,7 +1246,9 @@ footer .information-list li i {
     }
 
 
-    .menu-mobile-content__list .menu-moblie-item {}
+    .menu-mobile-content__list .menu-moblie-item {
+        user-select: none;
+    }
 
     .menu-mobile-content__list .menu-moblie-item .menu-item__link {
         color: #333;
@@ -1325,7 +1325,7 @@ footer .information-list li i {
     }
 
     .arrow-down-icon.active {
-        transform: rotate(180deg);
+        transform: rotate(-180deg);
     }
 
     .rotate180 {
